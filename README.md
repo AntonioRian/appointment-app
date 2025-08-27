@@ -8,7 +8,9 @@
 
 Um aplicativo simples de gerenciamento de compromissos desenvolvido para estudo e prática dos conceitos fundamentais do **Angular**.Appointment App
 
-Um aplicativo simples de gerenciamento de compromissos desenvolvido para estudo e prática dos conceitos fundamentais do **Angular**.
+
+![Interface do Appointment App](./screenshots/appointment-app.png)
+
 
 ##  Objetivo do Projeto
 
@@ -28,8 +30,6 @@ Este projeto foi criado como parte de um curso de 6 dias de Angular, com o objet
 - **RxJS** - Programação reativa
 - **LocalStorage** - Persistência de dados no navegador
   
-
-![Interface do Appointment App](./screenshots/appointment-app.png)
 
 ##  Arquitetura
 
