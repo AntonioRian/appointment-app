@@ -1,4 +1,12 @@
-﻿#  Appointment App
+﻿# 📅 Appointment App
+
+[![Angular](https://img.shields.io/badge/Angular-DD0031?style=for-the-badge&logo=angular&logoColor=white)](https://angular.io/)
+[![TypeScript](https://img.shields.io/badge/TypeScript-007ACC?style=for-the-badge&logo=typescript&logoColor=white)](https://www.typescriptlang.org/)
+[![Tailwind CSS](https://img.shields.io/badge/Tailwind_CSS-38B2AC?style=for-the-badge&logo=tailwind-css&logoColor=white)](https://tailwindcss.com/)
+[![RxJS](https://img.shields.io/badge/RxJS-B7178C?style=for-the-badge&logo=reactivex&logoColor=white)](https://rxjs.dev/)
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg?style=for-the-badge)](https://opensource.org/licenses/MIT)
+
+Um aplicativo simples de gerenciamento de compromissos desenvolvido para estudo e prática dos conceitos fundamentais do **Angular**.Appointment App
 
 Um aplicativo simples de gerenciamento de compromissos desenvolvido para estudo e prática dos conceitos fundamentais do **Angular**.
 
@@ -19,6 +27,9 @@ Este projeto foi criado como parte de um curso de 6 dias de Angular, com o objet
 - **Tailwind CSS** - Framework CSS para estilização
 - **RxJS** - Programação reativa
 - **LocalStorage** - Persistência de dados no navegador
+  
+
+![Interface do Appointment App](./screenshots/appointment-app.png)
 
 ##  Arquitetura
 
@@ -75,19 +86,6 @@ ng serve
 
 4. Abra o navegador e acesse: http://localhost:4200
 
-##  Como Usar
-
-1. **Adicionar Compromissos**:
-   - Digite o título do compromisso no campo de texto
-   - Selecione a data no campo de data
-   - Clique no botão '+' para adicionar
-
-2. **Visualizar Compromissos**:
-   - Todos os compromissos são exibidos em uma lista organizada
-   - Cada item  título e data formatada
-
-3. **Excluir Compromissos**:
-   - Clique no botão 'X' no canto direito de cada item para removê-lo
 
 ##  Persistência de Dados
 
@@ -107,7 +105,7 @@ Os dados são automaticamente salvos no **localStorage** do navegador, garantind
 
 
 
-##  Contribuição
+## 📚 Contribuições
 
 Este é um projeto de estudo, mas sugestões e melhorias são bem-vindas!
 
