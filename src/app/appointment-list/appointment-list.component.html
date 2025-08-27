@@ -1,0 +1,11 @@
+<section class="mt-6">
+    <ul class="space-y-2">
+        <li class="bg-white p-10 rounded shadow flex items-center justify-between" *ngFor="let appointment of appointments">
+            <div>
+                <span class="font-semibold">{{ appointment.title }}</span> - 
+                <span class="text-gray-600">{{ appointment.date | date:'dd.MM.yyyy' }}</span>
+            </div>
+            <button class="bg-red-500 text-white px-4 py-2 rounded hover:bg-blue-600 ml-4" (click)="deleteAppointment(appointment.id)">X</button>
+        </li>
+    </ul>
+</section>
