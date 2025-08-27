@@ -1,0 +1,5 @@
+<section class="p-6 bg-gray-100 flex justify-center">
+    <input class="border border-gray-300 rounded px-3 py-2 mr-2" [(ngModel)]="appointmentTitle" type="text" placeholder="Título do Compromisso">
+    <input class="border border-gray-300 rounded px-3 py-2 mr-2" [(ngModel)]="appointmentDate" type="date" placeholder="Appointment Date">
+    <button class="bg-blue-500 text-white px-4 py-2 rounded hover:bg-blue-600" (click)="addAppointment()">+</button>
+</section>
